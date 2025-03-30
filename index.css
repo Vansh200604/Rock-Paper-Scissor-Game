@@ -1,0 +1,104 @@
+/* General Page Styling */
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Move Icons */
+  .move-icon {
+    height: 60px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .move-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Move Buttons */
+  .move-button {
+    background: linear-gradient(145deg, #333333, #1a1a1a);
+    border: 3px solid white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+                -5px -5px 10px rgba(50, 50, 50, 0.2);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .move-button:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6),
+                -8px -8px 16px rgba(50, 50, 50, 0.3);
+  }
+  
+  .move-button:active {
+    transform: scale(0.95);
+    box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.5),
+                inset -4px -4px 6px rgba(50, 50, 50, 0.3);
+  }
+  
+  /* Result Styling */
+  .result {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Score Styling */
+  .score {
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #f1c40f;
+  }
+  
+  /* Control Buttons */
+  .reset-score-button,
+  .auto-play-button {
+    background: linear-gradient(145deg, #ffffff, #e0e0e0);
+    border: 2px solid #3498db;
+    color: #3498db;
+    font-size: 17px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3),
+                -3px -3px 8px rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+  }
+  
+  .reset-score-button:hover,
+  .auto-play-button:hover {
+    background: #3498db;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4),
+                -5px -5px 12px rgba(255, 255, 255, 0.3);
+  }
+  
+  .reset-score-button:active,
+  .auto-play-button:active {
+    transform: translateY(1px);
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.4),
+                inset -2px -2px 6px rgba(255, 255, 255, 0.3);
+  }
+  
